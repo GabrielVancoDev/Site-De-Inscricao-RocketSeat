@@ -4,7 +4,7 @@ A **RocketSeat** nos proporcionou esse treinamento, criando um site de inscriç�
 
 <tr>
 
-#Funcionalidades do site: 
+# Funcionalidades do site: 
 
 O JavaScript está trabalhando em toda parte lógica e estrutural do site: 
 <br>
