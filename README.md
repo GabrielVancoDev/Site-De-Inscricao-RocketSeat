@@ -51,7 +51,7 @@ const getTotalSubscribers = (userData) => {
 ```
 <br>
 
-4. Inserindo o código HTML pelo JavaScript
+3. Inserindo o código HTML pelo JavaScript
 
 ```
 const showInvite = (userData) =>{
