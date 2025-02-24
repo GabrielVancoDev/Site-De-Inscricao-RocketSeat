@@ -53,7 +53,7 @@ const getTotalSubscribers = (userData) => {
 
 3. Inserindo o código HTML pelo JavaScript
 
-```
+```JS
 const showInvite = (userData) =>{
     app.innerHTML = `  
     <main>
