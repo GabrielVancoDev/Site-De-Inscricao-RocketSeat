@@ -7,6 +7,7 @@ A **RocketSeat** nos proporcionou esse treinamento, criando um site de inscriç�
 #Funcionalidades do site: 
 
 O JavaScript está trabalhando em toda parte lógica e estrutural do site: 
+<br>
 
 1.Const com arry de usuários cadastrados:
 ```JS
@@ -31,6 +32,7 @@ const users = [
    }
 ]
 ```
+<br>
 2. Encontrar usuários cadastrados e retornar a quantidade de usuários: 
 
 ```JS
@@ -46,6 +48,36 @@ const getTotalSubscribers = (userData) => {
     })
     return subs.length
 }
+```
+<br>
+
+4. Inserindo o código HTML pelo JavaScript
+
+```
+const showInvite = (userData) =>{
+    app.innerHTML = `  
+    <main>
+        <h3>Inscrição Confirmada</h3>
+        <p>
+           Convide mais pessoas e concorra a prêmios!<br>
+           Compartilhe o link e acompanhe as inscrições:
+            
+        </p>
+<div class="input-group">
+    <label for="link">
+        <img src="link.svg" alt="Link icon">
+    </label>
+     <input type="text" id="link" value="https://evento.com?ref=${userData.ref}" disabled>
+</div>
+    </main>
+    <section class="stats">
+          <h4>
+            ${getTotalSubscribers(userData)}
+        </h4>
+        <p>
+            Inscrições feitas
+        </p>
+    </section>
 ```
 
 <tr>
